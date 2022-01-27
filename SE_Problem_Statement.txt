@@ -1,17 +1,13 @@
-SECURE SCAN
+									SECURE SCAN
 
-INTRODUCTION TO THE PROBLEM STATEMENT:
-	One-step way to make payments, know about an item, and much more work in one scan the technology of QR code has facilitated us.
-	Whenever we scan a QR code it only shows the link and then we can follow that link. But there’s no authenticity check-in whether that link is safe enough because the QR codes are not verified or manufactured by a secured authority. Anyone can generate a QR code within a few seconds with minor steps and this piece of technology can’t be understood by naked human eyes. That can cause the following issues-
-Susceptibility to QR code payment frauds,
-Vulnerable to redirection to non-secure websites
-Bad instructions embedded into the QR code
-Misleading QR code
-Crooks are altering both digital and physical QR codes and replacing them with malicious code.
+							INTRODUCTION TO THE PROBLEM STATEMENT:
+							
+	One-step way to make payments, know about an item, and much more work in one scan the technology of QR code has facilitated us. A QR code an initialism for quick response code is a type of matrix barcode or two-dimensional barcode that has become a part of our daily life in numerous ways. When we scan a QR code, it merely displays the link, which we can then follow. However, there always exists a quetion mark on the url source, whether that link is secured enough. 
+	As the QR codes are not inspected or made by a secure authority, anyone can create a QR code in a matter of seconds using simple techniques, yet this piece of code is incomprehensible to the naked eyes. This can result in the following problems:
+	
+	The URL data type is the only scenario in which conventional QR codes can carry executable data. Because a reader would normally send the data to the application associated with the data type utilised by the QR code, these URLs may contain JavaScript code that can be used to exploit vulnerabilities in applications on the host system, such as the reader, web browser, or image viewer.
+	Even if there are no software exploits, malicious QR codes combined with a permissive reader can compromise the contents of a computer and the privacy of its users. "Attagging," a portmanteau of "attack tagging," is the term for this practise. They're simple to make and can be placed on top of legitimate QR codes. The reader's permissions on a smartphone may grant access to the camera, full Internet access, read/write contact data, GPS, read browser history, read/write local storage, and make global system changes.
+	Linking to dangerous web sites with browser exploits, enabling the microphone/camera/GPS and then streaming those feeds to a remote server, analysis of sensitive data (passwords, files, contacts, transactions), sending email/SMS/IM messages or packets for DDoS as part of a botnet, corrupting privacy settings, stealing identity, and even containing malicious logic such as JavaScript or a virus are all risks. These actions could take place in the background, with the user only seeing the reader open a seemingly innocuous web page.
 
 SOLUTION:
-	Even though QR code scanner is inseparable from our daily life, many of the users are unaware of the dark sides of using this technology. 
-	One way solution is to check each and every QR code and its source and authenticity. Scanning all the QR codes around a large area, maintaining a proper database for it, and going through it each time while scanning a code is a laborious task. 
-	An easier way would be to automate this task and make it more efficient and feasible by maintaining a middleware database authenticator software. That software will work as a normal QR code scanner and on scanning verifies the code from the database and informs the user whether the code is secure or not.
-
-
+	Even though QR code scanner is inseparable from our daily life, many of the users are unaware of the dark sides of using this technology. One way solution is to check each and every QR code and its source and authenticity. Scanning all the QR codes around a large area, maintaining a proper database for it, and going through it each time while scanning a code is a laborious task. An easier way would be to automate this task and make it more efficient and feasible by maintaining a middleware database authenticator software. That software will work as a normal QR code scanner and on scanning verifies the code from the database and informs the user whether the code is secure or not.
